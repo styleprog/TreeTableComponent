@@ -1,0 +1,7 @@
+#bookpublishReport .table-column {
+    -fx-alignment: CENTER-RIGHT;
+}
+
+#bookpublishReport #blankColumn {
+    -fx-alignment: CENTER-LEFT;
+}

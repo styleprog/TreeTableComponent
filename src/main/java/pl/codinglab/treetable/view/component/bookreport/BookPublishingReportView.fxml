@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="pl.codinglab.treetable.view.component.bookreport.BookPublishingReportView">
+        <TreeTableView fx:id="bookPublishing" id="bonusReport" layoutX="2.0" layoutY="3.0" prefHeight="700.0" prefWidth="1158.0"
+                       AnchorPane.topAnchor="0" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0">
+            <columns>
+                <TreeTableColumn fx:id="blankColumn" id="blankColumn" prefWidth="136.0" />
+                <TreeTableColumn fx:id="writing" prefWidth="100.0" text="%writing" />
+                <TreeTableColumn fx:id="editing" minWidth="0.0" prefWidth="122.0" text="%editing" />
+                <TreeTableColumn fx:id="format" minWidth="0.0" prefWidth="323.0" text="%format">
+                    <columns>
+                        <TreeTableColumn fx:id="formatCoop" minWidth="0.0" prefWidth="100.0" text="%coop" />
+                        <TreeTableColumn fx:id="formatNoCoop" minWidth="0.0" prefWidth="100.0" text="%nocoop" />
+                    </columns>
+                </TreeTableColumn>
+                <TreeTableColumn fx:id="print" minWidth="0.0" prefWidth="682.0" text="%print">
+                    <columns>
+                        <TreeTableColumn fx:id="printCoop" minWidth="0.0" prefWidth="100.0" text="%coop" />
+                        <TreeTableColumn fx:id="printNoCoop" minWidth="0.0" prefWidth="100.0" text="%nocoop" />
+                    </columns>
+                </TreeTableColumn>
+                <TreeTableColumn fx:id="marketing" minWidth="0.0" prefWidth="134.0" text="%marketing">
+                    <columns>
+                        <TreeTableColumn fx:id="marketingCoop" minWidth="0.0" prefWidth="100.0" text="%coop" />
+                        <TreeTableColumn fx:id="marketingNoCoop" minWidth="0.0" prefWidth="100.0" text="%nocoop" />
+                    </columns>
+                </TreeTableColumn>
+                <TreeTableColumn fx:id="sales" minWidth="0.0" prefWidth="249.0" text="%sales">
+                    <columns>
+                        <TreeTableColumn fx:id="salesCoop" minWidth="0.0" prefWidth="100.0" text="%coop" />
+                        <TreeTableColumn fx:id="salesNoCoop" minWidth="0.0" prefWidth="100.0" text="%nocoop" />
+                    </columns>
+                </TreeTableColumn>
+            </columns>
+        </TreeTableView>
+</AnchorPane>
