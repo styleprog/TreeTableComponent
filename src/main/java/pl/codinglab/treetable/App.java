@@ -4,12 +4,12 @@ import de.saxsys.mvvmfx.FluentViewLoader;
 import de.saxsys.mvvmfx.MvvmFX;
 import de.saxsys.mvvmfx.ViewTuple;
 import de.saxsys.mvvmfx.cdi.MvvmfxCdiApplication;
-import pl.codinglab.treetable.view.main.MainView;
-import pl.codinglab.treetable.view.main.MainViewModel;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import pl.codinglab.treetable.view.main.MainView;
+import pl.codinglab.treetable.view.main.MainViewModel;
 
 import javax.inject.Inject;
 import java.util.Locale;
@@ -35,7 +35,7 @@ public class App extends MvvmfxCdiApplication {
     }
 
     public static void main(String[] args) {
-        Locale.setDefault(Locale.GERMAN);
+        Locale.setDefault(Locale.ENGLISH);
         launch(args);
     }
 
